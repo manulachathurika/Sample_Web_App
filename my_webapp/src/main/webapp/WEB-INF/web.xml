@@ -1,0 +1,64 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+    <display-name>Archetype Created Web Application</display-name>
+
+    <description>
+        This is a simple web application with a source code organization
+        based on the recommendations of the Application Developer's Guide.
+    </description>
+
+    <servlet>
+        <servlet-name>HelloWorld</servlet-name>
+        <servlet-class>HelloWorld</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>HelloWorld2</servlet-name>
+        <servlet-class>HelloWorld2</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>HelloWorld3</servlet-name>
+        <servlet-class>HelloWorld3</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>echo</servlet-name>
+        <servlet-class>echo</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>HelloWorld5</servlet-name>
+        <servlet-class>HelloWorld5</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorld</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorld2</servlet-name>
+        <url-pattern>/hello2</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorld3</servlet-name>
+        <url-pattern>/hello3</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>echo</servlet-name>
+        <url-pattern>/echo</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>HelloWorld5</servlet-name>
+        <url-pattern>/304</url-pattern>
+    </servlet-mapping>
+
+</web-app>
